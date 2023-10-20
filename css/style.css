@@ -1,0 +1,76 @@
+body {
+    background: #233468;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fff, #233468);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fff, #233468); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove margens padrão do corpo */
+    text-align: center; /* Centraliza o texto no corpo */
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    background-size: contain;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#img {
+    margin: 0 auto;
+    width: 250px;
+    height: 260px;
+    border: 2px solid #030303;
+    border-radius: 50%; /* Corrige para 50% para obter um círculo perfeito */
+}
+
+p {
+    font-family: 'Press Start 2P';
+    font-weight: 400;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    line-height: 40px;
+    margin: 8px;
+}
+
+ul {
+    list-style: none;
+    padding: 0; /* Corrige o preenchimento */
+    width: 190px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+li {
+    font-family: "Fira Code", monospace;
+    background-color: #233468;
+    padding: 10px;
+    border-radius: 10px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin: 20px;
+    box-shadow: 3px 3px 3px 0px black;
+}
+a {
+    text-decoration: none;
+    font-family: "Fira Code", monospace;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+}
+  /* Simplifique a regra para todos os elementos com id "opX:hover" */
+[id^="op"]:hover {
+    background-color: #222020;
+    transition: 0.8s;
+    opacity: 0.7;
+}
